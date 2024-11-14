@@ -35,7 +35,7 @@ namespace makerbit {
     public transmitBit(highMicros: number, lowMicros: number): void {
       pins.analogWritePin(this.pin, 1023);
       control.waitMicros(highMicros);
-      pins.analogWritePin(this.pin, 0);
+      pins.analogWritePin(this.pin, 1);
       control.waitMicros(lowMicros);
     }
 
