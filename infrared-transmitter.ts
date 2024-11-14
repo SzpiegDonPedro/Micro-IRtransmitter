@@ -1,10 +1,10 @@
 // MakeCode blocks for sending commands using an IR LED
 
 /**
- * MakerBit
+ * IRmicro
  */
-//% color=#0fbc11 icon="\u272a" block="MakerBit"
-//% category="MakerBit"
+//% color=#0fbc11 icon="\u272a" block="Micro:IR"
+//% category="Micro:IR"
 namespace makerbit {
   let irLed: InfraredLed;
 
